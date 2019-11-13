@@ -79,10 +79,15 @@ print(PD)
 #B
 
 PAuB = PB
+
 PAiB = 0
+
 PBuC = PB + PC
+
 PBiC = 0 
+
 PCuD = PD + PC
+
 
 'x= function(type){
   switch (as.character(type),
