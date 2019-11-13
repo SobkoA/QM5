@@ -115,4 +115,12 @@ VR(x)
 sum(dbinom(11:20, 20, .2))
 #0.9998983
 
+p <- 1000000
+results <- 0
+for (i in seq_len(p)) {
+  n <- sample(c(TRUE,FALSE),20,prob=(c(0.2,0.8)),replace=TRUE)
+  results[i] <- sum(ifelse(sum(n)>10,TRUE,FALSE))
+}
+mean(results)
+
 
