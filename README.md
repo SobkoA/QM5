@@ -9,7 +9,7 @@ sum(dbinom(0:4, 18, .5))
 barplot(dbinom(0:18,18,.5))
 
 #4
-# F:M; 1:1.2  
+#F:M; 1:1.2  
 sum(dbinom(3:6, 6, 1/2.2))
 #0.4323509
 
@@ -35,7 +35,7 @@ u2 = util(strategy2)
 print(u2)
 
 (u1>u2)
-# the company should implement Str1 
+#the company should implement Str1 
 
 #b
 howoften <- 10000
